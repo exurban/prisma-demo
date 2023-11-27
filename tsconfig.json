@@ -10,7 +10,7 @@
       "@/app/*": ["src/app/*"],
       "@/forms": ["src/forms/*"],
       "@/lib/*": ["src/lib/*"],
-      "@/styles/*": ["src/styles/*"]
+      "@/styles/*": ["./src/styles/*"]
     },
     "strict": true,
     "forceConsistentCasingInFileNames": true,
