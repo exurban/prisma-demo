@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Form from "src/components/form";
-import Link from "next/link";
+import Image from 'next/image'
+import AuthForm from '@/components/auth-providers'
+import Link from 'next/link'
 
 export default function Login() {
   return (
@@ -18,12 +18,10 @@ export default function Login() {
             />
           </Link>
           <h3 className="text-xl font-semibold">Sign In</h3>
-          <p className="text-sm text-gray-500">
-            Use your email and password to sign in
-          </p>
+          <p className="text-sm text-gray-500">Sign in to continue.</p>
         </div>
-        <Form type="login" />
+        <AuthForm />
       </div>
     </div>
-  );
+  )
 }

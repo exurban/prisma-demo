@@ -6,10 +6,10 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["src/components/*"],
-      "@/app/*": ["src/app/*"],
-      "@/forms": ["src/forms/*"],
-      "@/lib/*": ["src/lib/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/app/*": ["./src/app/*"],
+      "@/forms": ["./src/forms/*"],
+      "@/lib/*": ["./src/lib/*"],
       "@/styles/*": ["./src/styles/*"]
     },
     "strict": true,
